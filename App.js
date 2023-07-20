@@ -1,4 +1,5 @@
 import MUIButton from "./MUIButton";
+import version from "/package.json";
 //import "./App.css";
 //import Button from "@mui/material/Button";
 
@@ -11,6 +12,7 @@ function App() {
       <div> login component</div>
       <div>cancelled button</div>
       <div></div>
+      <p>this is the version {version}</p>
     </div>
   );
 }
